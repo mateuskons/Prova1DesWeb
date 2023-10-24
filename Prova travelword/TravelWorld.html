@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="galeria.js"></script>
+    <title>TravelWorld</title>
+</head>
+<body>
+    <header>
+        <h1>Pacífico Paradise</h1>
+    </header>
+    <section>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sit explicabo aliquam esse optio veritatis sequi a iste nobis omnis ad, dignissimos expedita blanditiis quidem non fugiat vitae veniam nesciunt!</p>
+    </section>
+    <section>
+        <h2>Atrações</h2>
+    </section>
+    <section>
+        <h3>Lindas praias</h3>
+        <img src="https://media-magazine.trivago.com/wp-content/uploads/2016/02/20164420/ilha-do-mel-parana-praia-de-fora-foto-tales-azzi.jpg" alt="Praias" width="300" height="300">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi voluptatum ut blanditiis minima asperiores quos, ipsa veritatis iure cupiditate libero quasi? Incidunt alias nostrum vero dicta, veritatis repudiandae rem dignissimos.</p> <a href="">Entre e descubra</a>
+    </section>
+    <section>
+        <h4>Resort com Spa</h4>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/29/08/b3/33/savoy-seychelles-resort.jpg" alt="Resort" width="300" height="300">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis odit labore repudiandae tempora minus dolore aspernatur, porro qui ipsam obcaecati, perspiciatis nisi repellendus quibusdam, reprehenderit maxime. Eligendi ipsam doloribus et.</p> <a href="">Entre e descubra</a>
+    </section>
+    <section>
+        <h5>Trilhas pelas ilhas</h5>
+        <img src="https://www.ilhabela.com.br/wp-content/uploads/2020/01/capa-5-trilhas-para-iniciantes-em-ilhabela-bruna-garcez.jpg" alt="trilhas" width="300" height="300">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum necessitatibus possimus et? Dicta porro obcaecati, veritatis itaque corrupti natus laborum possimus facilis iste cumque eum nobis nihil praesentium dolorem?</p> <a href="">Entre e descubra</a>
+    </section>
+    <section><h6>Galeria de imagens</h6></section>
+    <div id="sobreposição" onclick="fecharimagem()">
+        <div id="fecharimagem">
+          <img id="imagem-ampliada" src="" alt="Imagem Ampliada">
+        </div>
+      </div>
+    
+      <div>
+        <img class="image-container" id="img" src="https://ilhasmaldivas.com.br/wp-content/uploads/2022/02/praias-maldivas-imagens.jpg" alt="Imagem 1" onclick="abririmagem('https://ilhasmaldivas.com.br/wp-content/uploads/2022/02/praias-maldivas-imagens.jpg')">
+        <img class="image-container" id="img2" src="https://www.queroviajarmais.com/wp-content/uploads/2016/08/praia-meros-ilha.jpg" alt="Imagem 2" onclick="abririmagem('https://www.queroviajarmais.com/wp-content/uploads/2016/08/praia-meros-ilha.jpg')">
+        <img class="image-container" id="img3" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-phuket-capa2019-03.jpg" alt="Imagem 3" onclick="abririmagem('https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-phuket-capa2019-03.jpg')">
+        <img class="image-container" id="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOKzoS-2Q5kMkMYIF09nP6bQ9U4sQFGwHFQ&usqp=CAU" alt="Imagem 4" onclick="abririmagem('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOKzoS-2Q5kMkMYIF09nP6bQ9U4sQFGwHFQ&usqp=CAU')">
+        <img class="image-container" id="img5" src="https://v9v6u8a5.stackpathcdn.com/wp-content/uploads/2020/03/praia-Elafonisi-creta.jpg" alt="Imagem 5" onclick="abririmagem('https://v9v6u8a5.stackpathcdn.com/wp-content/uploads/2020/03/praia-Elafonisi-creta.jpg')">
+        <img class="image-container" id="img6" src="https://magazine.zarpo.com.br/wp-content/uploads/2020/08/Mar-azul-e-ilhas-paradis%C3%ADacas-veja-o-que-fazer-em-Angra-dos-Reis-770x515.jpg" alt="Imagem 6" onclick="abririmagem('https://magazine.zarpo.com.br/wp-content/uploads/2020/08/Mar-azul-e-ilhas-paradis%C3%ADacas-veja-o-que-fazer-em-Angra-dos-Reis-770x515.jpg')"> 
+        
+      </div>
+      <h7>Entre em contato</h7>
+
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email" name="email" value=""><br><br>
+            <label for="fone">Telefone:</label><br>
+            <input type="text" id="fone" name="fone" value="()"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+</body>
+</html>
